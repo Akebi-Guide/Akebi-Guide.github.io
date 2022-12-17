@@ -3,6 +3,11 @@ home: true
 heroImage:  https://github.com/Akebi-Guide/Akebi-Guide.github.io/blob/main/docs/img/logo.png?raw=true
 heroText: AkebiGC Guide
 tagline: A tutorial tells you how to use it.
+actions:
+  - text: Start →
+    link: /guide/
+    type: primary
+    size: large
 actionText: Start →
 actionLink: /guide/
 features:

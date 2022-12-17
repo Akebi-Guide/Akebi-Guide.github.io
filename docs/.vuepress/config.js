@@ -1,4 +1,5 @@
 module.exports = {
+    theme: 'antdocs',
     head: [
         [
             'link',
