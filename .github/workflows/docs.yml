@@ -41,6 +41,7 @@ jobs:
         # 关于 -run 和 run | 的区别可参阅:  
         # https://stackoverflow.com/questions/59529042/difference-between-run-and-multiple-runs-in-github-actions
         run: |-
+          pnpm i vuepress-theme-antdocs
           export NODE_OPTIONS=--openssl-legacy-provider
           pnpm run docs:build
           echo > docs/.vuepress/dist/.nojekyll
